@@ -1,5 +1,3 @@
-use radix_fmt::{radix, Radix};
-
 #[derive(Default, Clone)]
 pub struct Merkle {
     zero: Box<Option<Merkle>>,
